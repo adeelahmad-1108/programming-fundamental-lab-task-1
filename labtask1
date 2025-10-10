@@ -1,0 +1,67 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+
+int main() {
+    #include <iostream>
+#include <iomanip>
+using namespace std ;
+int main(){
+    string nameofproduct1;
+    float priceofproduct1;
+    string nameofproduct2;
+    float priceofproduct2;
+    int quantityofproduct1;
+    int quantityofproduct2;
+    float totalpriceofproduct1;
+    float totalpriceofproduct2;
+    cout<<"Enter product1 name "<<endl;
+    cin>>nameofproduct1 ;
+    cout<<"enter the product2 name"<<endl;
+    cin>>nameofproduct2;
+    cout<<"enter quantityof product1"<<endl;
+    cin>>quantityofproduct1;
+    cout<<"enter quantityof product2"<<endl;
+    cin>>quantityofproduct2;
+    cout<<"enter price of product1"<<endl;
+    cin>>priceofproduct1;
+    cout<<"enter price of product2"<<endl;
+    cin>>priceofproduct2;
+    totalpriceofproduct1=quantityofproduct1*priceofproduct1;
+    totalpriceofproduct2=quantityofproduct2*priceofproduct2;
+    
+    cout<<"totalpriceofproduct1:"<<totalpriceofproduct1;
+    cout<<"totalpriceofproduct2:"<<totalpriceofproduct2;
+    cout<<"...........total bill......"<<endl;
+    cout<<left<<"items"<<setw(15)<<left<<"quantity"<<setw(15)<<left<<"price"<<setw(15)<<"totalprice"<<endl;
+     cout<<left<<nameofproduct1<<setw(15)<<quantityofproduct1<<left<<priceofproduct1<<setw(15)<<"totalprice"<<endl;
+    cout<<left<<nameofproduct2<<setw(15)<<quantityofproduct2<<left<<priceofproduct2<<setw(15)<<"totalprice"<<endl;
+    return 0;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
